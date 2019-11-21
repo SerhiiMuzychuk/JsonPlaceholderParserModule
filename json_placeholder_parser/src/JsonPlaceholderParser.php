@@ -28,7 +28,7 @@ class JsonPlaceholderParser implements JsonPlaceholderParserInterface{
   protected $logger;
 
   /**
-   * The logger service.
+   * The json serialization service.
    *
    * @var \Drupal\Component\Serialization\Json
    */
