@@ -1,0 +1,5 @@
+name: 'Json Placeholder Parser'
+type: module
+description: 'Provides workflow for parse content from Jsonplaceholder.'
+core: 8.x
+package: Custom

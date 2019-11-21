@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Contains hooks for Json Placeholder Parser module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function json_placeholder_parser_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.json_placeholder_parser':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('The module provides Json Placeholder Parser functionality.') . '</p>';
+      return $output;
+  }
+}

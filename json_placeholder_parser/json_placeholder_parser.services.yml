@@ -1,0 +1,4 @@
+services:
+  json_placeholder_parser.parser:
+    class: Drupal\json_placeholder_parser\JsonPlaceholderParser
+    arguments: ['@http_client', '@logger.factory', '@serialization.json']
